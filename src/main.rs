@@ -1,9 +1,14 @@
-use leptos::{mount_to_body, prelude::*, view};
+use leptos::view;
 
 fn main() {
-    mount_to_body(|| {
+    console_error_panic_hook::set_once();
+
+    leptos::mount_to_body(|| {
         view! {
-             <h1 class="canttouchthis">"Hello, World!" </h1>
+            <div>
+                <h1>"Hello, World!"</h1>
+                <p>"This is a simple example of a Leptos app."</p>
+            </div>
         }
     })
 }
