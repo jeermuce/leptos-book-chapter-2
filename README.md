@@ -23,3 +23,10 @@ if you don't have cargo-binstall and want to use it
 ## run it with csr using trunk
 
 `trunk serve --open`
+
+## utilities
+
+https://github.com/leptos-rs/awesome-leptos -- TODO: Check thoroughly, truck load of great stuff
+
+
+
